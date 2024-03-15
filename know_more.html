@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="#" rel="icon">
+  <title>Vikaan shelters</title>
+  <!-- bootstrap file -->
+  <!-- <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png"> -->
+  <!-- <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+     -->
+  <!-- <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png"> -->
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+  <!-- google font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Orelega+One&family=Roboto+Condensed:ital,wght@1,300&family=Yeseva+One&display=swap"
+    rel="stylesheet" />
+  <!-- owl-carousel file -->
+  <link rel="stylesheet" href="assets/owl/css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="assets/owl/css/owl.theme.default.min.css" />
+
+  <!-- icon css -->
+  <link rel="stylesheet" href="assets/css/all.min.css" />
+  <!-- css file -->
+  <link rel="stylesheet" href="assets/css/know_more.css" />
+  <link rel="stylesheet" href="assets/css/common.css" />
+  <link rel="stylesheet" href="assets/css/header-footer.css" />
+  <!-- media query file -->
+  <link rel="stylesheet" href="assets/css/mediaquery.css">
+
+
+  <link rel="stylesheet" href="./assets/css/index.css">
+
+  <!-- ------------- aos animation ------------ -->
+  <link rel="stylesheet" type="text/css" href="assets/aos/css/aos.css">
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body onload="openTab('tab1')">
+  <header>
+    <div class="container ">
+      <div class="d-flex justify-content-between ">
+        <div class="img_box"><img src="./assets/images/header-footer/vikaan_logo.png" alt=""></div>
+        <div class="nav_links d-flex align-items-center">
+
+          <ul class="d-md-flex align-items-center justify-content-between gap-5 d-none">
+            <li class="d-flex align-items-center justify-content-between" ><a href="index.html" class="page_link">HOME</a></li>
+            <li class="d-flex align-items-center justify-content-between" ><a href="aboutus.html" class="page_link">ABOUT US</a></li>
+            <li class="d-flex align-items-center justify-content-between" ><a href="services.html" class="page_link ">SERVICES</a></li>
+            <li class="d-flex align-items-center justify-content-between position-relative projects_link" >
+              <a href="projects.html" class="page_link active">PROJECTS</a>
+              <ul class="projects_list" style="z-index: 999999 !important;">
+                <li class="ps-3 py-2"><a href="ongoing_projects.html" class="active">Ongoing projects</a> </li>
+                <li class="ps-3 py-2"><a href="completed_projects.html">Completed projects</a> </li>
+                <li class="ps-3 py-2"><a href="contract_works.html">Contract works</a></li>
+              </ul>
+            </li>
+            <li class="d-flex align-items-center justify-content-between" ><a href="gallery.html" class="page_link">GALLERY</a></li>
+            <li class="d-flex align-items-center justify-content-between" ><a href="contactus.html" class="page_link">CONTACT US</a></li>
+          </ul>
+          
+          <img src="./assets/images/header-footer/menu_img.png" class="d-md-none d-flex menu_nav_list" height="50px" alt="">
+          
+          <div id="menu_nav_items_list" class="position-absolute menu_nav_list_items py-5 px-4 d-md-none" style="display: none;">
+            <ul class="menu_nav_list_items_ul">
+              <li> <a class="text-white" href="index.html">HOME</a></li>
+              <li><a href="aboutus.html" class="text-white">ABOUT US</a></li>
+              <li><a href="services.html" class="text-white">SERVICES</a> </li>
+              <li><a href="projects.html" class="main_font_color">PROJECTS</a></li>
+              <ul class="ps-4">
+                <li style="list-style: disc;"><a href="ongoing_projects.html" class="text-white active">ONGOING PROJECTS</a></li>
+                <li style="list-style: disc;"><a href="completed_projects.html" class="text-white">COMPLETED PROJECTS</a></li>
+                <li style="list-style: disc;"><a href="contract_works.html" class="text-white">CONTRACT WORKS</a></li>
+              </ul>
+              
+              <li><a href="gallery.html" class="text-white">GALLERY</a></li>
+              <li><a href="contactus.html" class="text-white">CONTACT US</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </header>
+    <section class="bg_top1 py-2">
+        <div class="container"> 
+        <div class="row align-items-center py-2">
+            <div class="col-lg-4 py-4 d-flex flex-column justify-content-center align-items-lg-start align-items-center">
+                <h5>
+                    Projects Name
+                </h5>
+            </div>
+           <div class="col-lg-8 py-2 d-flex flex-column justify-content-center align-items-lg-end align-items-center">
+            <h6 class="head_1"><a href="index.html" class="text-black">Home</a><span class="home_slash ms-1"><p class="ms-3 mb-0 d-inline-block"><a href="projects.html" class="text-black">Projects</a></p></span><span class="home_slash ms-1"><a href="ongoing_projects.html" class="mb-0 ms-3 text-decoration-none text-black d-inline-block">Ongoing Projects</a></span><span class="home_slash ms-1"><a class="mb-0 ms-3 text-decoration-none main_font_color d-inline-block">Projects name</a></span></h6>
+            </div>
+           </div>
+            </div>
+        </section>
+
+        <section class="d-md-block d-none">
+            <div class="container w-100 p-xl-4 p-3">
+          <div class="d-flex flex-wrap justify-content-start mt-5 tab">
+                    <div class="pl-2 mt-1"><button class="btn btn_bg tablinks" onclick="openTab('tab1')">Project Details</button>
+                    </div>
+                           <div class="pl-2 mt-1">   <button class="btn btn_bg tablinks" onclick="openTab('tab2')">Flat Details</button>
+                        </div>
+                           <div class="pl-2 mt-1"><button class="btn btn_bg tablinks" onclick="openTab('tab3')">Floor Plan</button>
+                        </div>
+                          <div class="pl-2 mt-1"><button  class="btn btn_bg tablinks"onclick="openTab('tab4')">Location</button></a>
+                        </div>                  
+            </div>
+            </section>
+            <section class="d-md-block d-none">
+                <div id="tab1" class="tab-content h-100 bg-white py-5">
+                    <div class="container">
+                        <div class="row justify-content-xl-start justify-content-center">
+                            <div class="col-xl-4 py-2 col-10">
+                               <img src="assets/images/know_more/im1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-xl-4 py-2 col-10">
+                                <div class="card w-100">
+                                    <div class="card_tit py-2 w-100 text-uppercase fw-bold text-center">Project Title</div>
+                                    <div class="card-body">
+                                      
+                                      <p class="card-text text-center">Door No. 133, 134, & 135, Velachery Road,<br>
+                                        Little Mount, Saidapet,<br>
+                                        Chennai – 600015</p>
+                                     
+                                    </div>
+                                  </div>
+                                  <a href="./assets/images/know_more/sai_bhuvi_brochure.pdf.crdownload" download="proposed_file_name"><img src="assets/images/know_more/button_img.png" class="img-fluid mt-4" alt=""><img src="assets/images/know_more/pdf_icon.png" class="img-fluid mt-4"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab2" class="tab-content">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-8 col-12">
+                        <table class="table table-bordered align-middle table-responsive">
+                          <thead>
+                            <tr>
+                              <th class="text-center tb_head" scope="col">S.NO.</th>
+                              <th class="text-center tb_head" scope="col">FLAT NO.</th>
+                              <th class="text-center tb_head" scope="col">AREA (In sq.ft)</th>
+                              <th class="text-center tb_head" scope="col">FLOOR</th>
+                              <th class="text-center tb_head" scope="col">ROOMS</th>
+                              <th class="text-center tb_head" scope="col">FACING</th>
+                              <th class="text-center tb_head" scope="col">STATUS</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th class="tb_gray text-center" scope="row">1</th>
+                              <td class="text-center tb_gray">F1</td>
+                              <td class="text-center tb_gray">1390</td>
+                              <td class="text-center tb_gray">FIRST</td>
+                              <td class="text-center tb_gray">3</td>
+                              <td class="text-center tb_gray">SOUTH</td>
+                              <td class="text-center tb_green">AVAILABLE</td>
+                            </tr>
+                        
+                            <tr>
+                              <th class="tb_gray text-center" scope="row">2</th>
+                              <td class="text-center tb_gray">F1</td>
+                              <td class="text-center tb_gray">1390</td>
+                              <td class="text-center tb_gray">FIRST</td>
+                              <td class="text-center tb_gray">3</td>
+                              <td class="text-center tb_gray">SOUTH</td>
+                              <td class="text-center tb_red">BOOKED</td>
+                            </tr>
+                            <tr>
+                              <th class="tb_gray text-center" scope="row">3</th>
+                              <td class="text-center tb_gray">F1</td>
+                              <td class="text-center tb_gray">1390</td>
+                              <td class="text-center tb_gray">FIRST</td>
+                              <td class="text-center tb_gray">3</td>
+                              <td class="text-center tb_gray">SOUTH</td>
+                              <td class="text-center tb_green">AVAILABLE</td>
+                            </tr>
+                            <tr>
+                              <th class="tb_gray text-center" scope="row">4</th>
+                              <td class="text-center tb_gray">F1</td>
+                              <td class="text-center tb_gray">1390</td>
+                              <td class="text-center tb_gray">FIRST</td>
+                              <td class="text-center tb_gray">3</td>
+                              <td class="text-center tb_gray">SOUTH</td>
+                              <td class="text-center tb_green">AVAILABLE</td>
+                            </tr>
+                            <tr>
+                              <th class="tb_gray text-center" scope="row">5</th>
+                              <td class="text-center tb_gray">F1</td>
+                              <td class="text-center tb_gray">1390</td>
+                              <td class="text-center tb_gray">FIRST</td>
+                              <td class="text-center tb_gray">3</td>
+                              <td class="text-center tb_gray">SOUTH</td>
+                              <td class="text-center tb_green">AVAILABLE</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="tab3" class="tab-content">
+                    <div class="container">
+                        <img src="assets/images/know_more/flat.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div id="tab4" class="tab-content">
+                    <div class="container" style="height: 100vh;">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124395.6935307095!2d80.10619860150032!3d13.012386014058611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52642dc5c1d5ab%3A0x3eb23b1003ba43fe!2sVIKAAN%20Shelters!5e0!3m2!1sen!2sin!4v1710252022835!5m2!1sen!2sin" height="100%" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>     
+                    </div>
+                </div>
+             
+            </section>
+            <section class="d-md-none d-block">
+              <div class="accordion mt-5" id="accordionExample1">
+                <div  data-aos="fade-down" class="accordion-item btn_faq">
+                    <h2 class="accordion-header" id="headingEight">
+                        <button class="accordion-button collapsed fw-bold" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true"
+                            aria-controls="collapseEight" style="background-color: transparent !important;">
+                            Projects
+                        </button>
+                    </h2>
+                    <div id="collapseEight" class="accordion-collapse collapse"
+                        aria-labelledby="headingEight" data-bs-parent="#accordionExample1">
+                        <div class="accordion-body">
+                          <div class="container">
+                            <div class="row justify-content-xl-start justify-content-center">
+                                <div class="col-xl-4 py-2 col-10">
+                                   <img src="assets/images/know_more/im1.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-xl-4 py-2 col-10">
+                                    <div class="card w-100">
+                                        <div class="card_tit py-2 w-100 text-uppercase fw-bold text-center">Project Title</div>
+                                        <div class="card-body">
+                                          
+                                          <p class="card-text text-center">Door No. 133, 134, & 135, Velachery Road,<br>
+                                            Little Mount, Saidapet,<br>
+                                            Chennai – 600015</p>
+                                         
+                                        </div>
+                                      </div>
+                                      <a href="./assets/images/know_more/sai_bhuvi_brochure.pdf.crdownload" download="proposed_file_name" class="d-flex flex-wrap"><img src="assets/images/know_more/button_img.png" class="img-fluid mt-4" alt=""><img src="assets/images/know_more/pdf_icon.png" class="img-fluid mt-4"></a>
+                                </div>
+                            </div>
+                        </div> 
+                           
+                        </div>
+                    </div>
+                </div>
+                <div  data-aos="fade-up" class="accordion-item mt-4 btn_faq">
+                    <h2 class="accordion-header" id="headingNine">
+                        <button class="accordion-button collapsed fw-bold" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false"
+                            aria-controls="collapseNine" style="background-color: transparent !important;">
+                            Flat details
+                        </button>
+                    </h2>
+                    <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+                        data-bs-parent="#accordionExample1">
+                        <div class="accordion-body">
+                          <div class="table-responsive">
+                          <div class="container">
+                          
+                                <table class="table table-bordered align-middle table-responsive">
+                                  <thead>
+                                    <tr>
+                                      <th class="text-center tb_head" scope="col">S.NO.</th>
+                                      <th class="text-center tb_head" scope="col">FLAT NO.</th>
+                                      <th class="text-center tb_head" scope="col">AREA (In sq.ft)</th>
+                                      <th class="text-center tb_head" scope="col">FLOOR</th>
+                                      <th class="text-center tb_head" scope="col">ROOMS</th>
+                                      <th class="text-center tb_head" scope="col">FACING</th>
+                                      <th class="text-center tb_head" scope="col">STATUS</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <th class="tb_gray text-center" scope="row">1</th>
+                                      <td class="text-center tb_gray">F1</td>
+                                      <td class="text-center tb_gray">1390</td>
+                                      <td class="text-center tb_gray">FIRST</td>
+                                      <td class="text-center tb_gray">3</td>
+                                      <td class="text-center tb_gray">SOUTH</td>
+                                      <td class="text-center tb_green">AVAILABLE</td>
+                                    </tr>
+                                
+                                    <tr>
+                                      <th class="tb_gray text-center" scope="row">2</th>
+                                      <td class="text-center tb_gray">F1</td>
+                                      <td class="text-center tb_gray">1390</td>
+                                      <td class="text-center tb_gray">FIRST</td>
+                                      <td class="text-center tb_gray">3</td>
+                                      <td class="text-center tb_gray">SOUTH</td>
+                                      <td class="text-center tb_red">BOOKED</td>
+                                    </tr>
+                                    <tr>
+                                      <th class="tb_gray text-center" scope="row">3</th>
+                                      <td class="text-center tb_gray">F1</td>
+                                      <td class="text-center tb_gray">1390</td>
+                                      <td class="text-center tb_gray">FIRST</td>
+                                      <td class="text-center tb_gray">3</td>
+                                      <td class="text-center tb_gray">SOUTH</td>
+                                      <td class="text-center tb_green">AVAILABLE</td>
+                                    </tr>
+                                    <tr>
+                                      <th class="tb_gray text-center" scope="row">4</th>
+                                      <td class="text-center tb_gray">F1</td>
+                                      <td class="text-center tb_gray">1390</td>
+                                      <td class="text-center tb_gray">FIRST</td>
+                                      <td class="text-center tb_gray">3</td>
+                                      <td class="text-center tb_gray">SOUTH</td>
+                                      <td class="text-center tb_green">AVAILABLE</td>
+                                    </tr>
+                                    <tr>
+                                      <th class="tb_gray text-center" scope="row">5</th>
+                                      <td class="text-center tb_gray">F1</td>
+                                      <td class="text-center tb_gray">1390</td>
+                                      <td class="text-center tb_gray">FIRST</td>
+                                      <td class="text-center tb_gray">3</td>
+                                      <td class="text-center tb_gray">SOUTH</td>
+                                      <td class="text-center tb_green">AVAILABLE</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div></div>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div  data-aos="fade-up" class="accordion-item mt-4 btn_faq">
+                    <h2 class="accordion-header " id="headingTen">
+                        <button class="accordion-button collapsed fw-bold" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false"
+                            aria-controls="collapseTen" style="background-color: transparent !important;">
+                           Floor plan
+                        </button>
+                    </h2>
+                    <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
+                        data-bs-parent="#accordionExample1">
+                        <div class="accordion-body">
+                            
+                          <div class="container">
+                            <img src="assets/images/know_more/flat.jpg" class="img-fluid" alt="">
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div  data-aos="fade-down" class="accordion-item mt-4  btn_faq">
+                    <h2 class="accordion-header" id="headingEle">
+                        <button class="accordion-button collapsed fw-bold" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseEle" aria-expanded="true"
+                            aria-controls="collapseEle" style="background-color: transparent !important;">
+                           Location
+                        </button>
+                    </h2>
+                    <div id="collapseEle" class="accordion-collapse collapse" aria-labelledby="headingEle"
+                        data-bs-parent="#accordionExample1">
+                        <div class="accordion-body">
+                          <div class="container" style="height: 100vh;">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124395.6935307095!2d80.10619860150032!3d13.012386014058611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52642dc5c1d5ab%3A0x3eb23b1003ba43fe!2sVIKAAN%20Shelters!5e0!3m2!1sen!2sin!4v1710252022835!5m2!1sen!2sin" height="100%" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>     
+                          </div>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                
+            </section>
+            <section id="footer" class="footer overflow-hidden bg-dark">
+              <div class="container">
+                  <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 my-5">
+                    <div class="col-lg-4 col-12 mb-3">
+                      <h2 class="text-light fs-6 mb-0">ABOUT US</h2>
+                      <div><img src="./assets/images/header-footer/vikaan_logo.png" height="110px" alt="" ></div>
+                      <p class="textcolor lh-base fw-normal text-justify">You have reached the right place to fulfil your dreams. VIKAAN Shelters was started by a team of Three talented entrepreneurs with great dedication and a common goal of delivering quality residences to our blue-chip clients.</p>
+                    </div>
+                    <div class="col-lg-1 d-lg-block d-none"></div>
+                
+                    <div class="col-lg-3 col-12 mb-3 px-lg-5 px-3">
+                      <h5 class="fs-6 mb-4 textcolor">NAVIGATION</h5>
+                      <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 pb-2 hovercolor"><span><i class="fa-solid fa-chevron-right pe-2"></i></span>Home</a></li>
+                        <li class="nav-item mb-2"><a href="aboutus.html" class="nav-link p-0 pb-2 hovercolor"><span><i class="fa-solid fa-chevron-right pe-2"></i></span>About us</a></li>
+                        <li class="nav-item mb-2"><a href="services.html" class="nav-link p-0 pb-2 hovercolor"><span><i class="fa-solid fa-chevron-right pe-2"></i></span>Services</a></li>
+                        <li class="nav-item mb-2"><a href="projects.html" class="nav-link p-0 pb-2 main_font_color hovercolor"><span><i class="fa-solid fa-chevron-right pe-2"></i></span>Projects</a></li>
+                        <li class="nav-item mb-2"><a href="gallery.html" class="nav-link p-0 pb-2 hovercolor"><span><i class="fa-solid fa-chevron-right pe-2"></i></span>Gallery</a></li>
+                        <li class="nav-item mb-2"><a href="contactus.html" class="nav-link p-0 pb-2 hovercolor"><span><i class="fa-solid fa-chevron-right pe-2"></i></span>Contact us</a></li>
+                      </ul>
+                    </div>
+                
+                 
+                
+                    <div class="col-lg-4 col-12 mb-3 pe-5">
+                      <h5 class="textcolor fs-6 mb-4">ADDRESS</h5>
+                      <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light"><strong>Flat No:</strong><span class="hovercolor"> S4, Sai Siddhi, Second Floor,</span></a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light pb-2 pe-5"><strong>Plot No:</strong><span class="hovercolor"> 2, Thiruvin Nagar, Kovilambakkam,(Pallavaram – Thoraipakkam Radial Road) <br>Chennai – 600 117.</span></a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light pb-2"><strong>Email:</strong><span class="hovercolor"> info@vikaanshelters.com</span></a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light"><strong>Office:</strong><span class="hovercolor">  044 – 22 477 477</span></a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light pb-2"><strong>Mobile:</strong><span class="hovercolor"> +91 – 98408 18806<br>
+                          &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp +91 – 99400 15473 <br>
+                          &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp +91 – 98411 42990</span></a></li>
+                     
+                      </ul>
+                    </div>
+                  </footer>
+                </div>
+            </section>
+  <!------------------------------------- bottom to top arrow-------------------- -->
+  <div class="scroll_container">
+    <div class="scroll_rotate"></div>
+      <div class="scroll_arrow"><i class="fa-solid fa-angle-up"></i></div>
+    </div>
+<!-- ------------ scrop bottom to top ------  -->
+<a href="#" id="scroll" style="display: none;"><span></span></a>
+<!-- <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script> -->
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/bootstrap/js/bootstrap.bundle.js"></script>
+<script type="text/javascript" src="assets/owl/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="assets/owl/js/owl.carousel.js"></script>
+<!-- ----------- light-box------------ -->
+<script src="assets/lightbox2-dev/dist/js/lightbox.js"></script>
+<!-- --------------- aos script ------------------- -->
+<script src="assets/aos/js/aos.js"></script>
+<!-- scroll sceipt -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+  var scrollContainer = document.querySelector('.scroll_container');
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > window.innerHeight / 2) {
+      scrollContainer.style.display = 'flex';
+    } else {
+      scrollContainer.style.display = 'none';
+    }
+  });
+  scrollContainer.addEventListener('click', function() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+});
+</script>
+
+ <script>
+  AOS.init();
+ </script>
+  
+ <script>
+     function openTab(tabId) {
+        // Hide all tab contents
+        var tabContents = document.getElementsByClassName('tab-content');
+        for (var i = 0; i < tabContents.length; i++) {
+            tabContents[i].style.display = 'none';
+           
+        }
+
+        // Remove 'active-tab' class from all tabs
+        var tabs = document.getElementsByClassName('tablinks');
+        for (var i = 0; i < tabs.length; i++) {
+            tabs[i].classList.remove('active-tab');
+        }
+
+        // Show the selected tab content and mark it as active
+        document.getElementById(tabId).style.display = 'block';
+        document.querySelector('[onclick="openTab(\'' + tabId + '\')"]').classList.add('active-tab');
+    }
+ </script>
+
+
+<script>
+  $('.menu_nav_list').on('click' , function(){
+    let menu_nav_items_list = document.getElementById('menu_nav_items_list');
+    menu_nav_items_list.classList.toggle('d-flex')
+  })
+  $(document).on('click', function(event) {
+      if (!$(event.target).closest('#menu_nav_items_list').length && !$(event.target).closest('.menu_nav_list').length) {
+        let menu_nav_items_list = document.getElementById('menu_nav_items_list');
+        menu_nav_items_list.classList.remove('d-flex');
+      }
+    })
+
+</script>
+
+  
+
+</body>
+
+</html>

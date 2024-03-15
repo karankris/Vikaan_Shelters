@@ -1,0 +1,88 @@
+.home_slash{
+    position: relative;
+}
+
+.home_slash::before{
+    content: '/';
+    position: absolute;
+    top: 0;
+    margin:0 4px;
+    font-weight: 400;
+}
+
+.btn_bg{
+    border-color: #4868cf;
+    background-color: #5472d2;
+    padding: 18px 15px;
+    border-radius: 8px 8px 0 0;
+    margin: 0 2px;
+}
+.btn_bg:hover{
+    border-color: #4868cf;
+    background-color: #5472d2;
+    padding: 18px 15px;
+    border-radius: 8px 8px 0 0;
+    margin: 0 2px;
+    color: #d54900;
+}
+.btn_bg:active,.btn_bg:focus,.active-tab{
+    color:black !important;
+    background: transparent !important;
+    outline: transparent !important;
+    border: none !important;
+    outline: none;
+}
+.card_tit{
+    background-color: #087141;
+    color: #fff;
+}
+.tb_head{
+    background: rgb(245, 130, 32) !important;
+    color: #fff;
+}
+.tb_red{
+    background: red !important;
+}
+.tb_green{
+   background: rgb(2, 243, 138) !important;
+}
+.tb_gray{
+background: #cfcdcd !important;
+}
+.accordion-item{
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    padding-bottom: 15px;
+  
+  }
+  .accordion-button:focus{
+    box-shadow: none !important;
+    color: black;
+  }
+  
+  .accordion-button::after {
+    display: none;
+  }
+  .accordion-button{
+    background-color: transparent;
+  }
+  /* Custom icons for collapsed and expanded states */
+  .accordion-button.collapsed::before {
+    font-family: 'Bootstrap Icons';
+            content: '\2b';
+    font-size: 25px;
+    margin-right: 30px; /* Adjust spacing if needed */
+  }
+  
+  .accordion-button:not(.collapsed)::before {
+    content: '\2212';
+    float: left;
+    font-size: 25px;
+    margin-right: 30px; /* Adjust spacing if needed */
+  }
+@media only screen and (max-device-width: 503px) {
+    .btn_bg,.btn_bg:hover{
+        padding: 10px 8px;
+    } 
+}

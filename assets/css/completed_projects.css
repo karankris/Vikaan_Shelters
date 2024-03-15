@@ -1,0 +1,42 @@
+/* ----- banner ---- */
+.top_banner {
+  background-image: url(../images/aboutus/bg_feature_work1.jpg);
+  background-repeat: no-repeat;
+}
+.h_slash,.h_slash1{
+  position: relative;
+}
+.h_slash::before {
+  content: "/";
+  position: absolute;
+  top:0;
+  font-weight: 400;
+}
+.h_slash1::before {
+  content: "/";
+  position: absolute;
+  top: 0;
+  font-weight: 400;
+}
+.top_banner a:hover,
+.complete_main a:hover {
+  color: #d55640 !important;
+}
+/* ----- complete project main ---- */
+.complete_main a {
+  font-weight: 500;
+  font-size: 16px;
+}
+.img_hover_black {
+  background-color: #000000;
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+}
+.img_hover_black:hover {
+  opacity: 0.5;
+}
+.hover_effect:hover img {
+  transform: scale(1.1);
+  transition: all ease-in-out;
+}

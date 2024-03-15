@@ -1,0 +1,268 @@
+#first_img_section{
+    position: relative;
+}
+#first_img_section .slide_inside_right_content{
+    top: 50%;
+    left: 50%;
+    transform: translate(20% , -50%);
+    color: #fff;
+}
+#first_img_section .slide_inside_left_content{
+    top: 50%;
+    left: 50%;
+    transform: translate(-85% , -50%);
+    color: #fff;
+}
+#first_img_section .item h1{
+    font-size: 3.8rem;
+}
+#first_img_section .item h5{
+    font-size: 1.3rem;
+}
+
+#first_img_section:hover .icon_box{
+    opacity: 1;
+}
+#first_img_section .icon_box{
+    position: absolute;
+    top: 50%;
+    opacity: 0;
+    z-index: 2;
+    background-color: rgba(31, 31, 31, 0.363);
+    color: #fff;
+}
+#first_img_section .left_icon_box{
+    left: 3%;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#first_img_section .left_icon_box:hover , #first_img_section .right_icon_box:hover{
+   background-color: #000;
+}
+#first_img_section .right_icon_box{
+    right: 3%;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ------------------------------------------- */
+/* --------------------------services--------------------------- */
+#services{
+    transform: translateY(-60px);
+    position: relative;
+    z-index: 10;
+}
+#services .services_img{
+    width: 83%
+}
+#services .service_box_content {
+    top: 76%;
+    left: 30%;
+    color: #000;
+    
+}
+#services .service_box:hover img{
+    opacity: 0.7;
+}
+#services .service_box:hover .icon_box{
+    opacity: 0.7;
+}
+#services .icon_box{
+    height: 80px;
+    width: 80px;
+    background-color: #087141;
+    box-shadow: 0 0 9px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#services .icon_box i{
+    color: #fff;
+    font-size: 2rem;
+    
+}
+#services .service_title::after{
+    content: "";
+    display: block;
+    text-align: center;
+    width: 50px;
+    height: 2px;
+    /* margin-left: 46px; */
+    margin: auto;
+    margin-top: 17px;
+    background-color: #ee8149;
+}
+
+#services .divided_content .divided_content_para{
+    color: rgb(58, 58, 58);
+}
+
+/* -----------------------------FEATURES----------------------- */
+
+/* about_main */
+#featured_work{
+    background-image: url(../images/index/banner_vikaan_flat.jpg);
+}
+#featured_work .about_main .abt_content {
+    text-align: justify;
+    font-size: 16px !important;
+    color: #727472;
+  }
+  #featured_work .arrow_owl {
+    opacity: 0.5 !important;
+    transition: all 0.2s ease-in-out;
+  }
+  #featured_work .img_hover_black {
+    opacity: 0;
+    background-color: #000000;
+    position: absolute;
+    inset: 0;
+  }
+  #featured_work .img_hover_black:hover {
+    opacity: 0.5;
+  }
+  #featured_work .item:hover img {
+    transform: scale(1.1);
+  }
+
+/* ------------------------------------------------------------------- */
+/* -------------------------building_vision--------------------------------- */
+
+#building_vision{
+    background-image: url(../images/index/bg_feature_work1.jpg);
+}
+#building_vision .read_more_btn{
+    background-color: #ee8149;
+    color: #000;
+}
+#building_vision .read_more_btn:hover{
+    background-color: #087141;
+    color: #fff;
+}
+#building_vision .building_para{
+   
+    color: rgb(95, 95, 95);
+    
+}
+/* -------------------------------------------------- */
+
+#exclusive_service .service_box_content {
+    color: #000;
+}
+
+#exclusive_service .service_box:hover .service_box_content{
+    opacity: 0.7;
+}
+#exclusive_service .icon_box{
+    top: -19%;
+    height: 80px;
+    width: 80px;
+    background-color: #087141;
+    box-shadow: 0 0 9px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#exclusive_service .icon_box i{
+    color: #fff;
+    font-size: 2rem;
+    
+}
+#exclusive_service .service_title::after{
+    content: "";
+    display: block;
+    text-align: center;
+    width: 50px;
+    height: 2px;
+    /* margin-left: 46px; */
+    margin: auto;
+    margin-top: 17px;
+    background-color: #ee8149;
+}
+#exclusive_service .read_more_btn{
+    background-color: #ee8149;
+    color: #000;
+}
+#exclusive_service .read_more_btn:hover{
+    background-color: #087141;
+    color: #fff;
+}
+
+/* ---------------------------------------------------- */
+
+#providing_construction{
+    background-image: url(../images/index/shelter_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+#providing_construction .vikaan_logo{
+    height: 110px;
+}
+#providing_construction .provide_contruction_para{
+    font-size: 3.5rem;
+}
+#providing_construction .read_more_btn{
+    background-color: #ec6f30;
+    color: #000;
+}
+#providing_construction .read_more_btn:hover{
+    background-color: #087141;
+    color: #fff;
+}
+/* ---------------------------------------------- */
+
+#news_events .apartment_img{
+  object-fit: cover;
+}
+#news_events .bg_dark_with_logo{
+   inset: 0;
+   background-color: rgba(0, 0, 0, 0.384);
+   opacity: 0;
+}
+#news_events .bg_dark_with_logo i{
+  position: inherit;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  font-size: 1.6rem;
+  transform: translate(-50% , -50%);
+}
+
+#news_events .apartment_img_box:hover .bg_dark_with_logo{
+   opacity: 1;
+}
+#news_events .event_title {
+  font-size: 21px; 
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+#news_events .event_title:hover {
+  color: #ec6f30;
+}
+/* ------------------------------ */
+#about_us{
+    background-image: url(../images/index/bg_feature_work1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#about_us .icon_img_m_f{
+    height: 90px;
+    width: 90px !important;
+    display: inline-block !important;
+}
+#about_us p{
+  font-size: 21px;
+  color: rgb(68, 68, 68)
+}

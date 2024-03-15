@@ -1,0 +1,45 @@
+.bg_top1{
+    background-image: url(../images/services/bg_top1.jpg);
+    background-position:center;
+    background-size: cover;
+    padding: 20px;
+    height: 15vh;
+    width: 100%;
+    }
+    .home_slash{
+        position: relative;
+    }
+  
+    .home_slash::before{
+        content: '/';
+        position: absolute;
+        top: 0;
+        margin:0 4px;
+        font-weight: 400;
+    }
+    .green_box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #087141;
+        height: 65px;
+        opacity: 0;
+        transform: translateY(-55px);
+    }
+    .img_height{
+            height: 300px;
+    }
+    .contain1:hover .green_box{
+        opacity: 1;
+    }
+    .contain1:hover .img_height{
+       transform: translateY(-65px);
+    }
+    .short_line{
+        position:absolute;
+       top:175%;
+        left: 42%;
+        width: 8%;
+        height: 4px;
+        background-color: #d54900;  
+    }

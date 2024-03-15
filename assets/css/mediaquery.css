@@ -1,0 +1,126 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   
+   
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    
+}
+
+/* ipad air  */
+@media only screen and (max-device-width: 820px) {
+   
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+   #first_img_section .item img{
+       height: 400px;
+       object-fit: cover;
+   }
+   #first_img_section .item h1{
+        font-size: 3rem;
+    }
+    #first_img_section .item h5{
+        font-size: 1.2rem;
+    }
+    #first_img_section .slide_inside_right_content{
+        top: 50%;
+        left: 50%;
+        transform: translate(-20% , -50%);
+        color: #fff;
+    }
+    #first_img_section .slide_inside_left_content{
+        top: 50%;
+        left: 50%;
+        transform: translate(-80% , -50%);
+        color: #fff;
+    }
+    /* -------------------------------- */
+     /* -------------------------------------- */
+     #providing_construction .provide_contruction_para {
+        font-size: 2.6rem;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   
+}
+
+/* /* ---- iphone 13pro max ---------- */
+@media only screen and (max-device-width: 430px) {
+    #first_img_section .item h1{
+        font-size: 2.9rem;
+    }
+    #first_img_section .item h5{
+        font-size: 1.1rem;
+    }
+    /* ------------------------------- */
+     /* -------------------------------------- */
+     #providing_construction .provide_contruction_para {
+        font-size: 2.3rem;
+    }
+}
+
+/* /* ---- iphone XR max ---------- */
+@media only screen and (max-device-width: 414px) {
+    #first_img_section .item img{
+        height: 370px;
+    }
+    #first_img_section .item h1{
+        font-size: 2.8rem;
+    }
+   
+    #first_img_section .slide_inside_right_content{
+        top: 50%;
+        left: 50%;
+        transform: translate(-80% , -50%);
+        color: #fff;
+    }
+    #first_img_section .slide_inside_left_content{
+        top: 50%;
+        left: 50%;
+        transform: translate(-80% , -50%);
+        color: #fff;
+    }
+
+    /* ------------------------------------------ */
+    #services .services_img{
+        width: 100%
+    }
+    #services .service_box_content {
+      
+        left: 29%;
+      
+    }
+    /* -------------------------------------- */
+    #providing_construction .provide_contruction_para {
+        font-size: 2rem;
+    }
+}
+
+/* pixel 5  ----------- */
+@media only screen and (max-device-width: 393px) {
+   
+}
+
+/* iPhone 12 pro ----------- */
+@media only screen and (max-device-width: 390px) {
+    
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (max-device-width: 375px) {
+    
+}
+
+/* samsung galaxy  */
+@media only screen and (max-device-width: 360px) {
+
+}
+
+
